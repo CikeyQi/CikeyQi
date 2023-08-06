@@ -9,8 +9,8 @@
 </a>
 
 1. 🏫 I’m a senior high school student.
-2. 💻 I don't have any particular specialty, but I have a basic knowledge of a little bit of everything.
-3. 🤙 QQ：3146312184丨WeChat: CIKEYQI丨Twitter: @Cikeyqi丨Telegram: @Sumoqi
+2. 🏷️ As if I'm tsundere or something! I'm definitely not!
+3. 🤙 QQ：3146312184丨WeChat: CIKEYQI
 
 <br>
 
@@ -42,6 +42,6 @@
 
 
 <a href="#">
-  <img align="right" src="https://github-readme-stats.vercel.app/api/wakatime?username=CikeyQi\&layout=compact" />
+  <img align="right" src="https://github-readme-stats.vercel.app/api/wakatime?username=CikeyQi&layout=compact" />
 </a>
 
