@@ -30,8 +30,8 @@
 ---
 
 <div style="display: flex; justify-content: space-between;">
-    <div style="text-align: left;"><span style="font-size: 20px;"><b>📓 My favorite language<b></span></div>
-    <div style="text-align: right;"><span style="font-size: 20px;"><b>📊 Code time for this week<b></span></div>
+    <div style="text-align: left;"><span style="font-size: 20px;"><b>📓 My favorite language👈<b></span></div>
+    <div style="text-align: right;"><span style="font-size: 20px;"><b>📊 Code time for this week👉<b></span></div>
 </div>
 
 <br>
