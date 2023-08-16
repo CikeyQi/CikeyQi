@@ -36,5 +36,5 @@
 <br>
 
 
-| <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CikeyQi&layout=compact" alt="Anurag's github stats" /></a> | <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=CikeyQi&layout=compact" /></a> |
+| <a href="https://github.com/CikeyQi"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CikeyQi&layout=compact&hide_border=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/CikeyQi"><img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=CikeyQi&layout=compact&hide_border=true" /></a> |
 | ------------- | ------------- |
