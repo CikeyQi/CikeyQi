@@ -5,7 +5,7 @@
 ---
 
 
-| 1. 🏫 I’m a senior high school student. <br>2. 🏷️ As if I'm tsundere or something! I'm definitely not!<br>3. 🤙 QQ：3146312184丨WeChat: CIKEYQI | <a href="https://github.com/CikeyQi"><img align="center" src="https://github-readme-stats.vercel.app/api?username=CikeyQi&show_icons=true&theme=radical)&hide_border=true" alt="Anurag's github stats" /></a> |
+| 1. 🏫 I’m a senior high school student. <br>2. 🏷️ The internet is very social, but the reality is very social anxiety. <br>3. 🤙 QQ：3146312184丨WeChat: CIKEYQI | <a href="https://github.com/CikeyQi"><img align="center" src="https://github-readme-stats.vercel.app/api?username=CikeyQi&show_icons=true&theme=radical)&hide_border=true" alt="Anurag's github stats" /></a> |
 | :------: | :----: |
 
 <br>
