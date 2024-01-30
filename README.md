@@ -1,6 +1,4 @@
-<div align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans&duration=2000&pause=1000&center=%E7%9C%9F&vCenter=%E7%9C%9F&repeat=%E7%9C%9F&width=435&lines=Hi%2C+I'm+CikeyQi.+%F0%9F%91%8B;A+high+school+student.+%F0%9F%8F%AB;Also+an+amateur+coder.+%F0%9F%92%BB;I+hope+you+like+my+project%2C+thank.+%F0%9F%92%96" alt="Typing SVG">
-</div>
+![Image_1706620100241](https://github.com/CikeyQi/CikeyQi/assets/61369914/a7f9ec8a-ac00-45ad-80eb-c1cde78d64a5)
 
 ---
 
