@@ -1,4 +1,4 @@
-![Image_1706620100241](https://github.com/CikeyQi/CikeyQi/assets/61369914/8a74f713-b32f-4952-894a-c93645e0d5d9)
+![Image_1706620100241](https://github.com/CikeyQi/CikeyQi/assets/61369914/c60917de-4f87-4ad1-a861-a0dc1704deea)
 
 ---
 
