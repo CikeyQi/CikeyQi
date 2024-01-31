@@ -1,4 +1,4 @@
-![Image_1706620100241](https://github.com/CikeyQi/CikeyQi/assets/61369914/c60917de-4f87-4ad1-a861-a0dc1704deea)
+<video src="1.mp4" controls="controls" width="100%" height="100%"></video>
 
 ---
 
