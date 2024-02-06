@@ -3,7 +3,7 @@
 ---
 
 
-|  ✨ Ciallo～(∠・ω< )⌒☆ <br>  🔭 I am a high school student. <br>  😽 Turned 17 / Neko / Draw / Play stupid. <br>  🌱 I’m currently learning Kotlin, Python, JavaScript, Docker. <br>  📫 How to reach me: [🌟QQ Group](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Sn3QIF1_An0ZpMajPYoGLavfKye8YM_R&authKey=mab3w88lhYXK6ZiLLrvvSVp8XmbY%2F%2FxjWevIrY6quqM0YXImFwlJhnVytd8HUeCu&noverify=0&group_code=551081559) / [E-mail](mailto:3146312184@qq.com) / [QQ](https://qm.qq.com/q/YzePtrFeQE) / [Telegram](https://t.me/Sumoqi). | <a href="https://github.com/CikeyQi"><img align="center" src="https://github-readme-stats.vercel.app/api?username=CikeyQi&show_icons=true&theme=radical)&hide_border=true" alt="Anurag's github stats" /></a> |
+|  ✨ Ciallo～(∠・ω< )⌒☆ <br>  🔭 I am a high school student. <br>  😽 Turned 17 / Neko / Draw / Play stupid. <br>  🌱 I’m currently learning Kotlin, Python, JavaScript, Docker. <br>  📫 How to reach me: [🌟QQ Group](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Sn3QIF1_An0ZpMajPYoGLavfKye8YM_R&authKey=mab3w88lhYXK6ZiLLrvvSVp8XmbY%2F%2FxjWevIrY6quqM0YXImFwlJhnVytd8HUeCu&noverify=0&group_code=551081559) / [E-mail](mailto:3146312184@qq.com) / [QQ](https://qm.qq.com/q/YzePtrFeQE) / [Telegram](https://t.me/Sumoqi). | <a href="https://github.com/CikeyQi"><img align="center" src="https://github-readme-stats-one-bice.vercel.app/api?username=CikeyQi&show_icons=true&theme=radical)&hide_border=true" alt="Anurag's github stats" /></a> |
 | :------ | :----: |
 
 <br>
