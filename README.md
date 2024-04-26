@@ -1,6 +1,6 @@
-![header](./header.png)
+![header](https://cdn.jsdelivr.net/gh/CikeyQi/CikeyQi/header.png)
 
----
+<img width="200%" src="https://cdn.jsdelivr.net/gh/CikeyQi/CikeyQi/hr.gif" />
 
 | ✨ Ciallo ～(∠・ω< )⌒☆ <br> 🔭 I am a high school student. <br> 😽 Turned 17 / Neko / Draw / Play stupid. <br> 🌱 I’m currently learning Kotlin, Python, JavaScript, Docker. <br> 📫 How to reach me: [🌟QQ Group](https://qm.qq.com/q/TXTIS9KhO2) / [E-mail](mailto:3146312184@qq.com) / [QQ](https://qm.qq.com/q/YzePtrFeQE) / [Telegram](https://t.me/Sumoqi). | <a href="https://github.com/CikeyQi"><img align="center" src="https://github-readme-stats-one-bice.vercel.app/api?username=CikeyQi&show_icons=true&theme=radical)&hide_border=true" alt="Anurag's github stats" /></a> |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -28,7 +28,7 @@
 ![Ktor](https://img.shields.io/static/v1?style=for-the-badge&message=Ktor&color=fceee3&logo=Ktor&label= "Ktor")
 ![Vue.js](https://img.shields.io/static/v1?style=for-the-badge&message=Vue.js&color=fef6f1&logo=Vue.js&label= "Vue.js")
 
----
+<img width="200%" src="https://cdn.jsdelivr.net/gh/CikeyQi/CikeyQi/hr.gif" />
 
 <div style="display: flex; justify-content: space-between;">
     <div style="text-align: left;"><span style="font-size: 20px;"><b>📓 My favorite language👈<b></span></div>
