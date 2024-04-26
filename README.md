@@ -1,24 +1,32 @@
-![a270dca4-482c-4d84-b01b-95b0981973da](https://github.com/CikeyQi/CikeyQi/assets/61369914/3e72066d-58b6-4eb5-9c7a-ac6630053d51)
+![header](./header.png)
 
 ---
 
+| ✨ Ciallo ～(∠・ω< )⌒☆ <br> 🔭 I am a high school student. <br> 😽 Turned 17 / Neko / Draw / Play stupid. <br> 🌱 I’m currently learning Kotlin, Python, JavaScript, Docker. <br> 📫 How to reach me: [🌟QQ Group](https://qm.qq.com/q/TXTIS9KhO2) / [E-mail](mailto:3146312184@qq.com) / [QQ](https://qm.qq.com/q/YzePtrFeQE) / [Telegram](https://t.me/Sumoqi). | <a href="https://github.com/CikeyQi"><img align="center" src="https://github-readme-stats-one-bice.vercel.app/api?username=CikeyQi&show_icons=true&theme=radical)&hide_border=true" alt="Anurag's github stats" /></a> |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
-|  ✨ Ciallo～(∠・ω< )⌒☆ <br>  🔭 I am a high school student. <br>  😽 Turned 17 / Neko / Draw / Play stupid. <br>  🌱 I’m currently learning Kotlin, Python, JavaScript, Docker. <br>  📫 How to reach me: [🌟QQ Group](https://qm.qq.com/q/TXTIS9KhO2) / [E-mail](mailto:3146312184@qq.com) / [QQ](https://qm.qq.com/q/YzePtrFeQE) / [Telegram](https://t.me/Sumoqi). | <a href="https://github.com/CikeyQi"><img align="center" src="https://github-readme-stats-one-bice.vercel.app/api?username=CikeyQi&show_icons=true&theme=radical)&hide_border=true" alt="Anurag's github stats" /></a> |
-| :------ | :----: |
+### 📚Maybe I can use these Languages
 
-<br>
+![Kotlin](https://img.shields.io/static/v1?style=for-the-badge&message=Kotlin&color=ddbdd0&logo=Kotlin&label= "Kotlin")
+![JavaScript](https://img.shields.io/static/v1?style=for-the-badge&message=JavaScript&color=e4cad9&logo=JavaScript&label= "JavaScript")
+![Python](https://img.shields.io/static/v1?style=for-the-badge&message=Python&color=ebd7e3&logo=Python&label= "Python")
+![HTML5](https://img.shields.io/static/v1?style=for-the-badge&message=HTML5&color=f1e5ec&logo=HTML5&label= "HTML5")
+![Shell](https://img.shields.io/static/v1?style=for-the-badge&message=Shell&color=f8f2f6&logo=Shell&label= "Shell")
 
- 💡 Maybe I can do ：
+### 🔧Maybe I can use these Tools
 
-![Android Studio](https://img.shields.io/static/v1?style=for-the-badge&message=Android+Studio&color=222222&logo=Android+Studio&logoColor=3DDC84&label=)
-![Kotlin](https://img.shields.io/static/v1?style=for-the-badge&message=Kotlin&color=7F52FF&logo=Kotlin&logoColor=FFFFFF&label=)
-![JavaScript](https://img.shields.io/static/v1?style=for-the-badge&message=JavaScript&color=222222&logo=JavaScript&logoColor=F7DF1E&label=)
-![Python](https://img.shields.io/static/v1?style=for-the-badge&message=Python&color=3776AB&logo=Python&logoColor=FFFFFF&label=)
-![Docker](https://img.shields.io/static/v1?style=for-the-badge&message=Docker&color=2496ED&logo=Docker&logoColor=FFFFFF&label=)
-![HTML5](https://img.shields.io/static/v1?style=for-the-badge&message=HTML5&color=E34F26&logo=HTML5&logoColor=FFFFFF&label=)
-![CSS3](https://img.shields.io/static/v1?style=for-the-badge&message=CSS3&color=1572B6&logo=CSS3&logoColor=FFFFFF&label=)
-![Shell](https://img.shields.io/static/v1?style=for-the-badge&message=Shell&color=222222&logo=Shell&logoColor=FFD500&label=)
-![Redis](https://img.shields.io/static/v1?style=for-the-badge&message=Redis&color=DC382D&logo=Redis&logoColor=FFFFFF&label=)
+![Visual Studio Code](https://img.shields.io/static/v1?style=for-the-badge&message=Visual+Studio+Code&color=91bce6&logo=Visual+Studio+Code&logoColor=23a8f2&label= "Visual Studio Code")
+![WebStorm](https://img.shields.io/static/v1?style=for-the-badge&message=WebStorm&color=a7c9eb&logo=WebStorm&logoColor=01070e&label= "WebStorm")
+![PyCharm](https://img.shields.io/static/v1?style=for-the-badge&message=PyCharm&color=bdd7f0&logo=PyCharm&logoColor=01070e&label= "PyCharm")
+![Android Studio](https://img.shields.io/static/v1?style=for-the-badge&message=Android+Studio&color=d3e4f5&logo=Android+Studio&label= "Android Studio")
+![Docker](https://img.shields.io/static/v1?style=for-the-badge&message=Docker&color=e9f2fa&logo=Docker&label= "Docker")
+
+### 📖Maybe I can use these Frameworks
+
+![Node.js](https://img.shields.io/static/v1?style=for-the-badge&message=Node.js&color=f9ddc8&logo=Node.js&label= "Node.js")
+![Flask](https://img.shields.io/static/v1?style=for-the-badge&message=Flask&color=fbe5d6&logo=Flask&label= "Flask")
+![Ktor](https://img.shields.io/static/v1?style=for-the-badge&message=Ktor&color=fceee3&logo=Ktor&label= "Ktor")
+![Vue.js](https://img.shields.io/static/v1?style=for-the-badge&message=Vue.js&color=fef6f1&logo=Vue.js&label= "Vue.js")
 
 ---
 
@@ -29,6 +37,5 @@
 
 <br>
 
-
 | <a href="https://github.com/CikeyQi"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CikeyQi&layout=compact&hide_border=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/CikeyQi"><img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=CikeyQi&layout=compact&hide_border=true" /></a> |
-| ------------- | ------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
