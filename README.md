@@ -31,8 +31,6 @@
 <img width="200%" src="https://cdn.jsdelivr.net/gh/CikeyQi/CikeyQi/hr.gif" />
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-245%20hrs%2051%20mins-blue)
-
 📊 **This Week I Spent My Time On** 
 
 ```text
@@ -73,5 +71,5 @@ Java                     1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 29/04/2024 13:58:01 UTC
+ Last Updated on 29/04/2024 14:08:43 UTC
 <!--END_SECTION:waka-->
