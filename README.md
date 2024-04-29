@@ -30,12 +30,6 @@
 
 <img width="200%" src="https://cdn.jsdelivr.net/gh/CikeyQi/CikeyQi/hr.gif" />
 
-<div style="display: flex; justify-content: space-between;">
-    <div style="text-align: left;"><span style="font-size: 20px;"><b>📓 My favorite language👈<b></span></div>
-    <div style="text-align: right;"><span style="font-size: 20px;"><b>📊 Code time for this week👉<b></span></div>
-</div>
+<!--START_SECTION:waka-->
 
-<br>
-
-| <a href="https://github.com/CikeyQi"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CikeyQi&layout=compact&hide_border=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/CikeyQi"><img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=CikeyQi&layout=compact&hide_border=true" /></a> |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!--END_SECTION:waka-->
