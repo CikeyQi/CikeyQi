@@ -16,6 +16,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           COMMIT_USERNAME: "CikeyQi"
           COMMIT_EMAIL: "3146312184@qq.com"
+          SHOW_TOTAL_CODE_TIME: "False"
           SHOW_UPDATED_DATE: "True"
           SHOW_PROFILE_VIEWS: "False"
           SHOW_COMMIT: "False"
