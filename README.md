@@ -31,5 +31,18 @@
 <img width="200%" src="https://cdn.jsdelivr.net/gh/CikeyQi/CikeyQi/hr.gif" />
 
 <!--START_SECTION:waka-->
+**I Mostly Code in JavaScript** 
 
+```text
+JavaScript               13 repos            ███████████████░░░░░░░░░░   61.90 % 
+Shell                    3 repos             ████░░░░░░░░░░░░░░░░░░░░░   14.29 % 
+Python                   1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.76 % 
+C#                       1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.76 % 
+Java                     1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.76 % 
+```
+
+
+
+
+ Last Updated on 29/04/2024 12:12:42 UTC
 <!--END_SECTION:waka-->
