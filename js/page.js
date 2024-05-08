@@ -1,8 +1,9 @@
 (function ($) {
     'use strict';
     $(document).ready(function () {
-        var time = '#' + (new Date()).toTimeString().match(/\d{2}:\d{2}:\d{2}/)[0].replace(/:/g, '');
+        var time;
         var tc = function () {
+            time = '#' + (new Date()).toTimeString().match(/\d{2}:\d{2}:\d{2}/)[0].replace(/:/g, '');
             $('.time').text(time);
             if ($('html').hasClass('night')) {
                 $('html').css('background-color', time);
