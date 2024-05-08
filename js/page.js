@@ -1,1 +1,57 @@
-!function(t){"use strict";t(document).ready(function(){var n=function(){var n="#"+(new Date).toTimeString().match(/\d{2}:\d{2}:\d{2}/)[0].replace(/:/g,"");t(".time").text(n),t("html").hasClass("night")?(t(".center-text").css("color",n),t("html").css("background-color",n)):t(".time").css("color",n)};t(".time").on("click",function(){t("html").hasClass("night")?(t("html").removeClass("night"),t("html").css("background-color","#fff")):(t("html").addClass("night"),n(),t(".time").css("color","#fff"))}),document.oncontextmenu=function(){return!1},setInterval(function(){e()},2e3);var e=function(){try{!function t(n){(function(){}).constructor("debugger")(),t(++n)}(0)}catch(t){}};e(),((new Date).getHours()>18||(new Date).getHours()<6)&&(t("html").addClass("night"),t(".time").css("color","#fff")),n(),setInterval(n,1e3)})}(jQuery);
+(function ($) {
+    'use strict';
+    $(document).ready(function () {
+        var time = '#' + (new Date()).toTimeString().match(/\d{2}:\d{2}:\d{2}/)[0].replace(/:/g, '');
+        var tc = function () {
+            $('.time').text(time);
+            if ($('html').hasClass('night')) {
+                $('html').css('background-color', time);
+            } else {
+                $('.time').css('color', time);
+            }
+        };
+        $('.time').on('click', function () {
+            $('.center-text').css('visibility', 'visible')
+            if ($('html').hasClass('night')) {
+                $('.center-text').css('color', time);
+                $('html').removeClass('night');
+                $('html').css('background-color', '#fff');
+            } else {
+                $('.center-text').css('color', '#fff');
+                $('html').addClass('night');
+                tc();
+                $('.time').css('color', '#fff');
+            }
+        });
+
+        document.oncontextmenu = function () {
+            return false;
+        };
+
+        setInterval(function () {
+            check();
+        }, 1000);
+        var check = function () {
+            function doCheck(a) {
+                if (('' + a / a)['length'] !== 1 || a % 20 === 0) {
+                    (function () { }['constructor']('debugger')());
+                } else {
+                    (function () { }['constructor']('debugger')());
+                }
+                doCheck(++a);
+            }
+            try {
+                doCheck(0);
+            } catch (err) { }
+        };
+        check();
+
+        // init
+        if ((new Date()).getHours() > 18 || (new Date()).getHours() < 6) {
+            $('html').addClass('night');
+            $('.time').css('color', '#fff');
+        }
+        tc();
+        setInterval(tc, 1000);
+    });
+})(jQuery);

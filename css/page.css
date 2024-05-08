@@ -172,6 +172,7 @@ html.night .link i {
   font-size: 32px;
   color: #ffffff;
   user-select: none;
+  visibility: hidden;
 }
 @keyframes breathingLight {
   0%, 100% {
