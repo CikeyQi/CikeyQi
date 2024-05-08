@@ -25,6 +25,22 @@
             }
         });
 
+        $(document).ready(function () {
+            var titles = ["にゃあ", "らんらん♪", "にゃんぱすー", "にゃおん"];
+            var index = 0;
+            function updateContent() {
+                var currentTitle = titles[index];
+                document.title = currentTitle;
+                var navItem = $(".nav li a").first();
+                navItem.fadeOut('fast', function () {
+                    navItem.html('<i class="fa fa-home"></i>' + currentTitle);
+                    navItem.fadeIn('slow');
+                });
+                index = (index + 1) % titles.length;
+            }
+            setInterval(updateContent, 3000);
+        });
+
         document.oncontextmenu = function () {
             return false;
         };
