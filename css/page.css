@@ -66,6 +66,17 @@ html.night .link i {
   color: #d85555;
   font-size: 16px;
 }
+.rua-counter {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 1000;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: 'DFPGirlW7-B5', sans-serif;
+}
 .link {
   position: fixed;
   bottom: 0;
