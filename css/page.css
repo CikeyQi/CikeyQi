@@ -76,6 +76,7 @@ html.night .link i {
   border-radius: 4px;
   font-size: 16px;
   font-family: 'DFPGirlW7-B5', sans-serif;
+  user-select: none;
 }
 .link {
   position: fixed;
