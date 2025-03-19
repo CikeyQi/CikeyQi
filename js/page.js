@@ -2,23 +2,21 @@
   "use strict";
 
   $(document).ready(function () {
-    var ruaCounter = 0;
-    var titlePhrases = ["らんらん♪", "にゃんぱすー", "にゃおん", "にゃあ"];
-    var currentPhraseIndex = 0;
-    var $leftCounter = $(".left-counter");
-    var $navLink = $leftCounter.find("a");
-    var $ruaCounterElement = $("#rua-counter");
-    var $ruaCounterText = $(".rua-counter-text");
-    var $html = $("html");
-    var $themeToggle = $("#theme-toggle");
-    var $themeIcon = $("#theme-icon");
-    var $ripple = $("#ripple");
-    var isNightMode = $html.hasClass("night");
-    var ruaCounterVisible = false;
-    var $centerText = $(".center-text");
-    var themeToggled = false;
-    var titleRotationInterval;
-
+    let ruaCounter = 0;
+    const titlePhrases = ["らんらん♪", "にゃんぱすー", "にゃおん", "にゃあ"];
+    let currentPhraseIndex = 0;
+    const $navLink = $(".home-link");
+    const $ruaCounterElement = $("#rua-counter");
+    const $ruaCounterText = $(".rua-counter-text");
+    const $html = $("html");
+    const $themeToggle = $("#theme-toggle");
+    const $themeIcon = $("#theme-icon");
+    const $ripple = $("#ripple");
+    let isNightMode = $html.hasClass("night");
+    let ruaCounterVisible = false;
+    const $centerText = $(".center-text");
+    let themeToggled = false;
+    let titleRotationInterval;
 
     console.log(Object.defineProperties(new Error, {
       message: { get() { window.location.href = 'https://github.com/CikeyQi' } },
@@ -26,19 +24,17 @@
     }));
 
     function updateTitleAndNavLink() {
-      var currentPhrase = titlePhrases[currentPhraseIndex];
+      const currentPhrase = titlePhrases[currentPhraseIndex];
       document.title = currentPhrase;
-      $navLink.fadeOut("fast", function () {
-        $navLink.html('<i class="material-icons md-24">home</i><span class="nav-text">' + currentPhrase + '</span>');
+      $navLink.fadeOut("fast", () => {
+        $navLink.html(`<i class="material-icons">home</i><span class="home-text">${currentPhrase}</span>`);
         $navLink.fadeIn("slow");
       });
       currentPhraseIndex = (currentPhraseIndex + 1) % titlePhrases.length;
     }
 
     function startTitleRotation() {
-      if (titleRotationInterval) {
-        clearInterval(titleRotationInterval);
-      }
+      clearInterval(titleRotationInterval);
       titleRotationInterval = setInterval(updateTitleAndNavLink, 3000);
     }
 
@@ -52,45 +48,36 @@
         ruaCounterVisible = true;
       }
 
-      $ruaCounterText.text(" × " + ruaCounter);
+      $ruaCounterText.text(`× ${ruaCounter}`);
       $ruaCounterElement.addClass("animate");
-      setTimeout(function () {
+      setTimeout(() => {
         $ruaCounterElement.removeClass("animate");
       }, 300);
-      $(this).css("transition", "transform 0.1s");
-      $(this).css("transform", "translate(-50%, -50%) scale(0.9)");
-      setTimeout(() => {
-        $(this).css("transform", "translate(-50%, -50%) scale(1)");
-      }, 100);
+      $(this).css("transform", "scale(0.9)").delay(100).queue(function (next) {
+        $(this).css("transform", "scale(1)");
+        next();
+      });
     });
 
-    document.oncontextmenu = function () {
-      return false;
-    };
+    document.addEventListener('contextmenu', (e) => {
+      e.preventDefault();
+    });
 
-    $themeToggle.on("click", function (event) {
-
+    $themeToggle.on("click", function () {
       $centerText.css("visibility", "visible");
-
       $html.toggleClass("night");
       isNightMode = $html.hasClass("night");
-      var iconText = isNightMode ? "brightness_2" : "brightness_4";
+      const iconText = isNightMode ? "brightness_2" : "brightness_4";
       $themeIcon.text(iconText);
 
-      var primaryLight = "#D85555";
-      var primaryDark = "#424242";
-      var textLight = "#757575";
-      var textDark = "#eee";
+      const primaryLight = "#D85555";
+      const primaryDark = "#424242";
+      const textDark = "#eee";
+      const textLight = "#757575";
 
-      if (isNightMode) {
-        $themeToggle.css("color", textDark);
-        $ripple.css("background-color", primaryDark);
-        $centerText.css("color", textDark);
-      } else {
-        $themeToggle.css("color", primaryLight);
-        $ripple.css("background-color", primaryLight);
-        $centerText.css("color", textLight);
-      }
+      $themeToggle.css("color", isNightMode ? textDark : primaryLight);
+      $ripple.css("background-color", isNightMode ? primaryDark : primaryLight);
+      $centerText.css("color", isNightMode ? textDark : textLight);
 
       if (!themeToggled) {
         $centerText.addClass("visible");
@@ -100,21 +87,21 @@
       startTitleRotation();
     });
 
-    var primaryLight = "#D85555";
-    var primaryDark = "#424242";
-    var textLight = "#000";
-    var textDark = "#eee";
+    const initialPrimaryLight = "#D85555";
+    const initialPrimaryDark = "#424242";
+    const initialTextDark = "#eee";
+    const initialTextLight = "#757575";
 
     if (!isNightMode) {
       $themeIcon.text("brightness_4");
-      $themeToggle.css("color", primaryLight);
-      $ripple.css("background-color", primaryLight);
-      $centerText.css("color", textLight);
+      $themeToggle.css("color", initialPrimaryLight);
+      $ripple.css("background-color", initialPrimaryLight);
+      $centerText.css("color", initialTextLight);
     } else {
       $themeIcon.text("brightness_2");
-      $themeToggle.css("color", textDark);
-      $ripple.css("background-color", primaryDark);
-      $centerText.css("color", textDark);
+      $themeToggle.css("color", initialTextDark);
+      $ripple.css("background-color", initialPrimaryDark);
+      $centerText.css("color", initialTextDark);
     }
   });
 })(jQuery);

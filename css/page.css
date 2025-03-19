@@ -3,7 +3,9 @@
   src: url('resources/DFPGirlW7-B5.ttf') format('truetype');
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -16,7 +18,10 @@ body {
   background-color: #f3f3f3;
   color: #212121;
   overflow: hidden;
-  transition: background-color 0.5s ease;
+  transition: background-color 0.3s ease; 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
 }
 
 html.night body {
@@ -24,79 +29,40 @@ html.night body {
   color: #eee;
 }
 
-html.night .left-counter {
-  background-color: transparent;
-}
-
-html.night .left-counter a {
-  color: #eee;
-}
-
-html.night .left-counter a i {
-  color: #eee;
-}
-
-html.night .rua-counter {
-  background-color: transparent;
-  color: #eee;
-}
-
-html.night .link i {
-  color: #eee;
-}
-
-html.night .link .theme-toggle {
-  background-color: transparent;
-  color: #eee;
-}
-
-html.night .container .article p {
-  color: #eee;
-}
-
-html.night .container .article:not(:last-child) {
-  border-bottom: 1px rgba(255, 255, 255, 0.1) solid;
-}
-
-html.night .zzz::before {
-  border-color: rgba(50, 50, 50, 0.7);
-}
-
-html.night .center-text {
-  color: #eee;
-}
-
-.left-counter {
+.top-bar {
   position: fixed;
-  top: 16px;
-  left: 16px;
-  background-color: transparent;
-  color: #D85555;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
   z-index: 10;
-  padding: 8px 12px;
-  font-family: 'DFPGirlW7-B5', sans-serif;
 }
 
-.left-counter a {
+.home-link {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: inherit;
+  color: #D85555;
+  font-family: 'DFPGirlW7-B5', sans-serif;
 }
 
-.left-counter a i {
+html.night .home-link {
+  color: #eee;
+}
+
+.home-link i {
   margin-right: 8px;
   color: inherit;
+  font-size: 24px;
 }
 
 .rua-counter {
-  position: fixed;
-  top: 16px;
-  right: 16px;
-  z-index: 1000;
   background-color: transparent;
   color: #212121;
-  padding: 12px 16px;
+  padding: 8px 12px;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -108,13 +74,17 @@ html.night .center-text {
   justify-content: center;
 }
 
+html.night .rua-counter {
+  color: #eee;
+}
+
 .rua-counter.animate {
   animation: jump 0.3s ease-out;
 }
 
 .rua-counter-text {
   font-family: 'DFPGirlW7-B5', sans-serif;
-  margin-right: 8px;
+  margin-left: 4px; 
 }
 
 .paw-emoji {
@@ -122,34 +92,112 @@ html.night .center-text {
   animation: float-paw 1.5s ease-in-out infinite alternate;
 }
 
-.link {
+.content-container {
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px 80px; 
+  text-align: center;
+}
+
+.zzz {
+  border-radius: 50%;
+  width: 200px; 
+  height: 200px; 
+  background: url("http://q1.qlogo.cn/g?b=qq&nk=3146312184&s=640") center / cover no-repeat;
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+  cursor: pointer;
+  position: relative; 
+}
+
+.zzz:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.zzz:active {
+  transform: scale(0.95);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); 
+}
+
+.zzz::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+  border: 12px solid rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: breathingLight 3s infinite;
+}
+
+html.night .zzz::before {
+  border-color: rgba(66, 66, 66, 0.8);
+  animation: breathingLightNight 3s infinite;
+}
+
+.center-text {
+  font-family: 'DFPGirlW7-B5', sans-serif;
+  font-size: 28px; 
+  color: #757575;
+  user-select: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
+  margin-top: 20px; 
+}
+
+html.night .center-text {
+  color: #eee;
+}
+
+.center-text.visible {
+  opacity: 1;
+}
+
+.bottom-nav {
   position: fixed;
-  bottom: 16px;
-  left: 16px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  padding: 16px;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-list {
   padding: 0;
   list-style: none;
   display: flex;
   align-items: center;
 }
 
-.link li {
+.link-list li {
   margin-right: 16px;
 }
 
-.link li:last-child {
+.link-list li:last-child {
   margin-right: 0;
 }
 
-.link a {
+.link-list a {
   text-decoration: none;
 }
 
 .link-icon {
-  font-size: 24px;
+  font-size: 20px; 
   color: #757575;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 36px; 
+  height: 36px; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,147 +213,15 @@ html.night .link-icon {
   transform: scale(1.1);
 }
 
-.container {
-  margin: 16px auto;
-  max-width: 640px;
-  padding: 0 16px;
-}
-
-.container .article {
-  padding: 24px 0;
-}
-
-.container .article .title a {
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 28px;
-  color: #212121;
-  transition: color 0.2s ease-in-out;
-}
-
-html.night .container .article .title a {
-  color: #eee;
-}
-
-.container .article .title a:hover {
-  color: #D85555;
-}
-
-.container .article .category {
-  margin: 8px 0;
-  line-height: 24px;
-  color: #757575;
-  font-size: 14px;
-}
-
-.container .article .head {
-  float: left;
-  margin-right: 12px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  opacity: 0.8;
-  transition: opacity 0.2s ease-in-out;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.container .article .head:hover {
-  opacity: 1;
-}
-
-.container .article p {
-  color: #424242;
-  text-align: justify;
-  text-justify: inter-ideograph;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-}
-
-.container .article:not(:last-child) {
-  border-bottom: 1px #e0e0e0 solid;
-}
-
-.zzz {
-  border-radius: 50%;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 200px;
-  width: 200px;
-  background: url("http://q1.qlogo.cn/g?b=qq&nk=3146312184&s=640") center / cover no-repeat;
-  transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
-  cursor: pointer;
-}
-
-.zzz:hover {
-  transform: translate(-50%, -50%) scale(1.05);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-.zzz:active {
-  transform: translate(-50%, -50%) scale(0.95);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.zzz::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: -8px;
-  left: -8px;
-  right: -8px;
-  bottom: -8px;
-  border: 16px solid rgba(255, 255, 255, 0.8);
-  border-radius: 50%;
-  box-sizing: border-box;
-  animation: breathingLight 3s infinite;
-}
-
-html.night .zzz::before {
-  border-color: rgba(66, 66, 66, 0.8);
-  animation: breathingLightNight 3s infinite;
-}
-
-.center-text {
-  position: fixed;
-  width: 100%;
-  top: calc(50% + 120px);
-  text-align: center;
-  font-family: 'DFPGirlW7-B5', sans-serif;
-  font-size: 28px;
-  color: #757575;
-  user-select: none;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-
-html.night .center-text {
-  color: #eee;
-}
-
-.center-text.visible {
-  opacity: 1;
-}
-
-.theme-toggle-container {
-  position: fixed;
-  bottom: 16px;
-  right: 16px;
-  z-index: 10;
-}
-
 .theme-toggle {
   background-color: transparent;
   color: #D85555;
   border: none;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 36px; 
+  height: 36px; 
   cursor: pointer;
-  font-size: 24px;
+  font-size: 20px; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -332,7 +248,7 @@ html.night .theme-toggle {
   transform: translate(-50%, -50%);
   opacity: 0.4;
   background-color: #D85555;
-  transition: width 0.4s ease-out, height 0.4s ease-out, opacity 0.4s ease-out, background-color 0.5s ease;
+  transition: width 0.4s ease-out, height 0.4s ease-out, opacity 0.4s ease-out, background-color 0.3s ease; 
   pointer-events: none;
   z-index: -1;
 }
@@ -348,10 +264,10 @@ html.night #ripple {
   transform: translateX(-50%);
   background-color: #fff;
   color: #212121;
-  padding: 16px 24px;
+  padding: 12px 16px; 
   border-radius: 4px;
-  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
-  font-size: 16px;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 6px 0 rgba(0, 0, 0, 0.14), 0 1px 12px 0 rgba(0, 0, 0, 0.12); 
+  font-size: 14px; 
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease-in-out, visibility 0s linear 0.3s;
@@ -370,52 +286,22 @@ html.night .cat-alert {
 }
 
 @keyframes breathingLight {
-
   0%,
   100% {
     border-color: rgba(255, 255, 255, 0.6);
   }
-
-  50% {
-    border-color: rgba(255, 255, 255, 0.9);
-  }
-}
-
-@keyframes breathingLight {
-
-  0%,
-  100% {
-    border-color: rgba(255, 255, 255, 0.6);
-  }
-
   50% {
     border-color: rgba(255, 255, 255, 0.9);
   }
 }
 
 @keyframes breathingLightNight {
-
   0%,
   100% {
     border-color: rgba(66, 66, 66, 0.6);
   }
-
   50% {
     border-color: rgba(66, 66, 66, 0.9);
-  }
-}
-
-@keyframes float {
-  0% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-8px);
-  }
-
-  100% {
-    transform: translateY(0);
   }
 }
 
@@ -423,9 +309,8 @@ html.night .cat-alert {
   0% {
     transform: translateY(0);
   }
-
   100% {
-    transform: translateY(-6px);
+    transform: translateY(-4px); 
   }
 }
 
@@ -433,20 +318,69 @@ html.night .cat-alert {
   0% {
     transform: translateY(0);
   }
-
   20% {
-    transform: translateY(-10px);
+    transform: translateY(-8px); 
   }
-
   50% {
-    transform: translateY(5px);
+    transform: translateY(4px); 
   }
-
   80% {
-    transform: translateY(-5px);
+    transform: translateY(-4px); 
   }
-
   100% {
     transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+  .top-bar {
+    padding: 12px;
+  }
+
+  .home-link i {
+    font-size: 20px;
+  }
+
+  .home-text {
+    font-size: 18px;
+  }
+
+  .rua-counter {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+  .zzz {
+    width: 120px;
+    height: 120px;
+  }
+
+  .zzz::before {
+    border-width: 10px;
+  }
+
+  .center-text {
+    font-size: 18px;
+  }
+
+  .bottom-nav {
+    padding: 12px;
+  }
+
+  .link-icon {
+    font-size: 18px;
+    width: 32px;
+    height: 32px;
+  }
+
+  .theme-toggle {
+    font-size: 18px;
+    width: 32px;
+    height: 32px;
+  }
+
+  .cat-alert {
+    padding: 10px 14px;
+    font-size: 12px;
   }
 }
