@@ -1,1 +1,120 @@
-!function(t){"use strict";t(document).ready(function(){var e,n=function(){e="#"+(new Date).toTimeString().match(/\d{2}:\d{2}:\d{2}/)[0].replace(/:/g,""),t(".time").text(e),t("html").hasClass("night")?t("html").css("background-color",e):t(".time").css("color",e)};t(".time").on("click",function(){t(".center-text").css("visibility","visible"),t(".rua-counter").css("visibility","visible"),t("html").hasClass("night")?(t(".center-text").css("color",e),t(".rua-counter").css("color",e),t("html").removeClass("night"),t("html").css("background-color","#fff")):(t(".center-text").css("color","#fff"),t(".rua-counter").css("color","#fff"),t("html").addClass("night"),n(),t(".time").css("color","#fff"))}),t(document).ready(function(){var e=["らんらん♪","にゃんぱすー","にゃおん","にゃあ"],n=0;setInterval(function(){var o=e[n];document.title=o;var s=t(".nav li a").first();s.fadeOut("fast",function(){s.html('<i class="fa fa-home"></i>'+o),s.fadeIn("slow")}),n=(n+1)%e.length},3e3)});let o=0;document.querySelector(".zzz").addEventListener("click",function(){let t=o++>73?Math.min(.006+.06*(o-73),1):.006;Math.random()<t?(alert("你惹小猫生气了，小猫跑开了......\n你 Rua 了「 "+o+" 」次喵~（甩脑袋）"),window.location.reload()):document.getElementById("rua-counter").textContent="喵 × "+o,this.style.transition="transform 0.1s",this.style.transform="translate(-50%, -50%) scale(0.9)",setTimeout(()=>{this.style.transform="translate(-50%, -50%) scale(1)"},100)}),document.oncontextmenu=function(){return!1},setInterval(function(){s()},1e3);var s=function(){try{!function t(e){(function(){}).constructor("debugger")(),t(++e)}(0)}catch(t){}};s(),((new Date).getHours()>18||(new Date).getHours()<6)&&(t("html").addClass("night"),t(".time").css("color","#fff")),n(),setInterval(n,1e3)})}(jQuery);
+(function ($) {
+  "use strict";
+
+  $(document).ready(function () {
+    var ruaCounter = 0;
+    var titlePhrases = ["らんらん♪", "にゃんぱすー", "にゃおん", "にゃあ"];
+    var currentPhraseIndex = 0;
+    var $leftCounter = $(".left-counter");
+    var $navLink = $leftCounter.find("a");
+    var $ruaCounterElement = $("#rua-counter");
+    var $ruaCounterText = $(".rua-counter-text");
+    var $html = $("html");
+    var $themeToggle = $("#theme-toggle");
+    var $themeIcon = $("#theme-icon");
+    var $ripple = $("#ripple");
+    var isNightMode = $html.hasClass("night");
+    var ruaCounterVisible = false;
+    var $centerText = $(".center-text");
+    var themeToggled = false;
+    var titleRotationInterval;
+
+
+    console.log(Object.defineProperties(new Error, {
+      message: { get() { window.location.href = 'https://github.com/CikeyQi' } },
+      toString: { value() { (new Error).stack.includes('toString@') && (window.location.href = 'https://github.com/CikeyQi') } }
+    }));
+
+    function updateTitleAndNavLink() {
+      var currentPhrase = titlePhrases[currentPhraseIndex];
+      document.title = currentPhrase;
+      $navLink.fadeOut("fast", function () {
+        $navLink.html('<i class="material-icons md-24">home</i><span class="nav-text">' + currentPhrase + '</span>');
+        $navLink.fadeIn("slow");
+      });
+      currentPhraseIndex = (currentPhraseIndex + 1) % titlePhrases.length;
+    }
+
+    function startTitleRotation() {
+      if (titleRotationInterval) {
+        clearInterval(titleRotationInterval);
+      }
+      titleRotationInterval = setInterval(updateTitleAndNavLink, 3000);
+    }
+
+    startTitleRotation();
+
+    $(".zzz").on("click", function () {
+      ruaCounter++;
+
+      if (!ruaCounterVisible) {
+        $ruaCounterElement.css("visibility", "visible");
+        ruaCounterVisible = true;
+      }
+
+      $ruaCounterText.text(" × " + ruaCounter);
+      $ruaCounterElement.addClass("animate");
+      setTimeout(function () {
+        $ruaCounterElement.removeClass("animate");
+      }, 300);
+      $(this).css("transition", "transform 0.1s");
+      $(this).css("transform", "translate(-50%, -50%) scale(0.9)");
+      setTimeout(() => {
+        $(this).css("transform", "translate(-50%, -50%) scale(1)");
+      }, 100);
+    });
+
+    document.oncontextmenu = function () {
+      return false;
+    };
+
+    $themeToggle.on("click", function (event) {
+
+      $centerText.css("visibility", "visible");
+
+      $html.toggleClass("night");
+      isNightMode = $html.hasClass("night");
+      var iconText = isNightMode ? "brightness_2" : "brightness_4";
+      $themeIcon.text(iconText);
+
+      var primaryLight = "#D85555";
+      var primaryDark = "#424242";
+      var textLight = "#757575";
+      var textDark = "#eee";
+
+      if (isNightMode) {
+        $themeToggle.css("color", textDark);
+        $ripple.css("background-color", primaryDark);
+        $centerText.css("color", textDark);
+      } else {
+        $themeToggle.css("color", primaryLight);
+        $ripple.css("background-color", primaryLight);
+        $centerText.css("color", textLight);
+      }
+
+      if (!themeToggled) {
+        $centerText.addClass("visible");
+        themeToggled = true;
+      }
+
+      startTitleRotation();
+    });
+
+    var primaryLight = "#D85555";
+    var primaryDark = "#424242";
+    var textLight = "#000";
+    var textDark = "#eee";
+
+    if (!isNightMode) {
+      $themeIcon.text("brightness_4");
+      $themeToggle.css("color", primaryLight);
+      $ripple.css("background-color", primaryLight);
+      $centerText.css("color", textLight);
+    } else {
+      $themeIcon.text("brightness_2");
+      $themeToggle.css("color", textDark);
+      $ripple.css("background-color", primaryDark);
+      $centerText.css("color", textDark);
+    }
+  });
+})(jQuery);
