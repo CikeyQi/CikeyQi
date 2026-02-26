@@ -37,28 +37,28 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Other                    29 hrs 45 mins      █████████████████████░░░░   85.55 % 
-Markdown                 2 hrs 6 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.07 % 
-Batchfile                1 hr 5 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.13 % 
-JSON                     1 hr 3 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.04 % 
-XML                      18 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.90 % 
+Other                    32 hrs 44 mins      ██████████████████████░░░   86.97 % 
+Markdown                 2 hrs 26 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   06.47 % 
+Batchfile                1 hr 5 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   02.89 % 
+JSON                     1 hr 3 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   02.80 % 
+JSON with Comments       10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.46 % 
 
 🔥 Editors: 
-Edge                     34 hrs 47 mins      █████████████████████████   100.00 % 
+Edge                     37 hrs 39 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
 
 ```text
-JavaScript               16 repos            ██████████████░░░░░░░░░░░   57.14 % 
-TypeScript               4 repos             ████░░░░░░░░░░░░░░░░░░░░░   14.29 % 
-Shell                    3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.71 % 
-Python                   2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   07.14 % 
-Vue                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.57 % 
+JavaScript               16 repos            ██████████████░░░░░░░░░░░   55.17 % 
+TypeScript               5 repos             ████░░░░░░░░░░░░░░░░░░░░░   17.24 % 
+Shell                    3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.34 % 
+Python                   2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.90 % 
+Vue                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 % 
 ```
 
 
 
 
- Last Updated on 25/02/2026 02:26:40 UTC
+ Last Updated on 26/02/2026 02:22:36 UTC
 <!--END_SECTION:waka-->
