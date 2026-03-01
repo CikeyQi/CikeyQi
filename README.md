@@ -37,28 +37,28 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Other                    26 hrs 12 mins      ██████████████████████░░░   87.99 % 
-Markdown                 1 hr 58 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.66 % 
-JavaScript               1 hr 1 min          █░░░░░░░░░░░░░░░░░░░░░░░░   03.44 % 
-JSON                     33 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.89 % 
+Other                    28 hrs 26 mins      ██████████████████████░░░   89.16 % 
+Markdown                 1 hr 51 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.84 % 
+JavaScript               1 hr 1 min          █░░░░░░░░░░░░░░░░░░░░░░░░   03.21 % 
+JSON                     33 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.76 % 
 HTML                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 % 
 
 🔥 Editors: 
-Edge                     29 hrs 47 mins      █████████████████████████   100.00 % 
+Edge                     31 hrs 54 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
 
 ```text
-JavaScript               16 repos            ██████████████░░░░░░░░░░░   55.17 % 
-TypeScript               5 repos             ████░░░░░░░░░░░░░░░░░░░░░   17.24 % 
-Shell                    3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.34 % 
-Python                   2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.90 % 
-Vue                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 % 
+JavaScript               16 repos            █████████████░░░░░░░░░░░░   53.33 % 
+TypeScript               6 repos             █████░░░░░░░░░░░░░░░░░░░░   20.00 % 
+Shell                    3 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   10.00 % 
+Python                   2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.67 % 
+Vue                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.33 % 
 ```
 
 
 
 
- Last Updated on 28/02/2026 02:04:24 UTC
+ Last Updated on 01/03/2026 02:34:29 UTC
 <!--END_SECTION:waka-->
