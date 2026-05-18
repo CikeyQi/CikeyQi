@@ -31,19 +31,6 @@
 <img width="200%" src="https://cdn.jsdelivr.net/gh/CikeyQi/CikeyQi/hr.gif" />
 
 <!--START_SECTION:waka-->
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Shanghai
-
-💬 Programming Languages: 
-Other                    5 hrs 20 mins       █████████████████████████   98.52 % 
-JavaScript               4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.48 % 
-
-🔥 Editors: 
-Edge                     5 hrs 25 mins       █████████████████████████   100.00 % 
-```
-
 **I Mostly Code in JavaScript** 
 
 ```text
@@ -57,5 +44,5 @@ Kotlin                   1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 17/05/2026 03:40:17 UTC
+ Last Updated on 18/05/2026 03:54:50 UTC
 <!--END_SECTION:waka-->
