@@ -1,34 +1,68 @@
-![header](https://cdn.jsdelivr.net/gh/CikeyQi/CikeyQi/header.png)
+<div align="center">
 
-<img width="200%" src="https://cdn.jsdelivr.net/gh/CikeyQi/CikeyQi/hr.gif" />
+<img src="https://cdn.jsdelivr.net/gh/CikeyQi/CikeyQi/header.png" alt="CikeyQi" width="100%" />
 
-| ✨ Ciallo ～(∠・ω< )⌒☆ <br> 🎓 University student / 06' <br> 😽 Neko / Draw / Play stupid. <br> 🌱 I’m currently learning Kotlin, Python, JavaScript, Docker. <br> 📫 How to reach me: [🌟QQ Group](https://qm.qq.com/q/TXTIS9KhO2) / [E-mail](mailto:3146312184@qq.com) / [QQ](https://qm.qq.com/q/YzePtrFeQE) / [Telegram](https://t.me/CikeyQi). | <a href="https://github.com/CikeyQi"><img align="center" src="https://github-readme-stats-one-bice.vercel.app/api?username=CikeyQi&show_icons=true&theme=radical)&hide_border=true" alt="Anurag's github stats" /></a> |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+</div>
 
-### 📚Maybe I can use these Languages
+<img src="https://cdn.jsdelivr.net/gh/CikeyQi/CikeyQi/hr.gif" alt="divider" width="100%" />
 
-![Kotlin](https://img.shields.io/static/v1?style=for-the-badge&message=Kotlin&color=ddbdd0&logo=Kotlin&label= "Kotlin")
-![JavaScript](https://img.shields.io/static/v1?style=for-the-badge&message=JavaScript&color=e4cad9&logo=JavaScript&label= "JavaScript")
-![Python](https://img.shields.io/static/v1?style=for-the-badge&message=Python&color=ebd7e3&logo=Python&label= "Python")
-![HTML5](https://img.shields.io/static/v1?style=for-the-badge&message=HTML5&color=f1e5ec&logo=HTML5&label= "HTML5")
-![Shell](https://img.shields.io/static/v1?style=for-the-badge&message=Shell&color=f8f2f6&logo=Shell&label= "Shell")
+<table width="100%"><tr><td width="50%" valign="top">
+<h3>🐾 About me</h3>
+<ul>
+  <li>✨ Ciallo ～(∠・ω< )⌒☆</li>
+  <li>👋 Hi, I'm CikeyQi</li>
+  <li>🎓 University student · 06'</li>
+  <li>😽 Neko · Draw · Play stupid</li>
+  <li>🌱 Currently learning: <code>Kotlin</code> <code>Rust</code></li>
+<li>📫 How to find me: 
+  <a href="https://qm.qq.com/q/TXTIS9KhO2"><img src="https://img.shields.io/badge/QQ%20Group-B8F0D3?style=flat&logo=qq&logoColor=white" alt="QQ Group" /></a> 
+  <a href="mailto:cikeyqi@qq.com"><img src="https://img.shields.io/badge/Email-F4AD9F?style=flat&logo=gmail&logoColor=white" alt="Email" /></a> 
+  <a href="https://qm.qq.com/q/YzePtrFeQE"><img src="https://img.shields.io/badge/QQ-19AF9F?style=flat&logo=qq&logoColor=white" alt="QQ" /></a> 
+  <a href="https://t.me/CikeyQi"><img src="https://img.shields.io/badge/Telegram-BF9CDE?style=flat&logo=telegram&logoColor=white" alt="Telegram" /></a> 
+</li>
+</ul>
+ </td><td width="50%" valign="top">
+<h3>📊 GitHub statistics</h3>
+<a href="https://github.com/CikeyQi">
+  <img width="100%" src="https://github-readme-stats-one-bice.vercel.app/api?username=CikeyQi&show_icons=true&theme=default&hide_border=true" alt="CikeyQi's GitHub stats" />
+</a>
+</td></tr></table>
 
-### 🔧Maybe I can use these Tools
+### 📚 Languages
 
-![Visual Studio Code](https://img.shields.io/static/v1?style=for-the-badge&message=Visual+Studio+Code&color=91bce6&logo=Visual+Studio+Code&logoColor=23a8f2&label= "Visual Studio Code")
-![WebStorm](https://img.shields.io/static/v1?style=for-the-badge&message=WebStorm&color=a7c9eb&logo=WebStorm&logoColor=01070e&label= "WebStorm")
-![PyCharm](https://img.shields.io/static/v1?style=for-the-badge&message=PyCharm&color=bdd7f0&logo=PyCharm&logoColor=01070e&label= "PyCharm")
-![Android Studio](https://img.shields.io/static/v1?style=for-the-badge&message=Android+Studio&color=d3e4f5&logo=Android+Studio&label= "Android Studio")
-![Docker](https://img.shields.io/static/v1?style=for-the-badge&message=Docker&color=e9f2fa&logo=Docker&label= "Docker")
+<p>
+  <img src="https://img.shields.io/badge/Kotlin-ddbdd0?style=for-the-badge&logo=kotlin" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/Rust-e0c2d2?style=for-the-badge&logo=rust&logoColor=01070e" alt="Rust" />
+  <img src="https://img.shields.io/badge/JavaScript-e4cad9?style=for-the-badge&logo=javascript" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Python-ebd7e3?style=for-the-badge&logo=python" alt="Python" />
+  <img src="https://img.shields.io/badge/HTML5-f1e5ec?style=for-the-badge&logo=html5" alt="HTML5" />
+  <img src="https://img.shields.io/badge/Shell-f8f2f6?style=for-the-badge&logo=gnu-bash" alt="Shell" />
+</p>
 
-### 📖Maybe I can use these Frameworks
+### 🔧 Frameworks
 
-![Node.js](https://img.shields.io/static/v1?style=for-the-badge&message=Node.js&color=f9ddc8&logo=Node.js&label= "Node.js")
-![Flask](https://img.shields.io/static/v1?style=for-the-badge&message=Flask&color=fbe5d6&logo=Flask&label= "Flask")
-![Ktor](https://img.shields.io/static/v1?style=for-the-badge&message=Ktor&color=fceee3&logo=Ktor&label= "Ktor")
-![Vue.js](https://img.shields.io/static/v1?style=for-the-badge&message=Vue.js&color=fef6f1&logo=Vue.js&label= "Vue.js")
+<p>
+  <img src="https://img.shields.io/badge/Node.js-f9ddc8?style=for-the-badge&logo=nodedotjs" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Tauri-fae1cf?style=for-the-badge&logo=tauri" alt="Tauri" />
+  <img src="https://img.shields.io/badge/Electron-fbe5d6?style=for-the-badge&logo=electron" alt="Electron" />
+  <img src="https://img.shields.io/badge/Flask-fceee3?style=for-the-badge&logo=flask" alt="Flask" />
+  <img src="https://img.shields.io/badge/Ktor-fdf2ea?style=for-the-badge&logo=ktor" alt="Ktor" />
+  <img src="https://img.shields.io/badge/Vue.js-fef6f1?style=for-the-badge&logo=vuedotjs" alt="Vue.js" />
+  <img src="https://img.shields.io/badge/Docker-fefaf7?style=for-the-badge&logo=docker" alt="Docker" />
+</p>
 
-<img width="200%" src="https://cdn.jsdelivr.net/gh/CikeyQi/CikeyQi/hr.gif" />
+### 📖 Development environment
+
+<p>
+  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-91bce6?style=for-the-badge&logo=visualstudiocode" alt="Visual Studio Code" />
+  <img src="https://img.shields.io/badge/IntelliJ%20IDEA-9fc5e8?style=for-the-badge&logo=intellijidea&logoColor=01070e" alt="IntelliJ IDEA" />
+  <img src="https://img.shields.io/badge/WebStorm-a7c9eb?style=for-the-badge&logo=webstorm&logoColor=01070e" alt="WebStorm" />
+  <img src="https://img.shields.io/badge/PyCharm-bdd7f0?style=for-the-badge&logo=pycharm&logoColor=01070e" alt="PyCharm" />
+  <img src="https://img.shields.io/badge/Android%20Studio-d3e4f5?style=for-the-badge&logo=androidstudio" alt="Android Studio" />
+</p>
+
+<img src="https://cdn.jsdelivr.net/gh/CikeyQi/CikeyQi/hr.gif" alt="divider" width="100%" />
+
 
 <!--START_SECTION:waka-->
 📊 **This Week I Spent My Time On** 
@@ -59,3 +93,13 @@ Kotlin                   1 repo              █░░░░░░░░░░�
 
  Last Updated on 31/07/2026 22:12:34 UTC
 <!--END_SECTION:waka-->
+
+<div align="right">
+ <sub>
+   <a href="https://github.com/CikeyQi"><img src="https://img.shields.io/github/followers/CikeyQi?label=Followers&style=flat-square&logo=github&color=9b7ede" alt="GitHub followers" /></a>
+   <a href="https://github.com/CikeyQi?tab=repositories"><img src="https://img.shields.io/github/stars/CikeyQi?label=Stars&style=flat-square&logo=github&color=f6c85f" alt="GitHub stars" /></a>
+   <img src="https://komarev.com/ghpvc/?username=CikeyQi&style=flat-square&color=blueviolet" alt="Profile views" />
+ </sub>
+ 
+ <sub>Thanks for stopping by! ฅ(＾・ω・＾ฅ)</sub>
+</div>
