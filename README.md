@@ -31,39 +31,35 @@
 <img width="200%" src="https://cdn.jsdelivr.net/gh/CikeyQi/CikeyQi/hr.gif" />
 
 <!--START_SECTION:waka-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-1%20min-blue?style=flat)
-
 📊 **This Week I Spent My Time On** 
 
 ```text
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Other                    18 hrs 33 mins      ███████████████████████░░   93.91 % 
-JavaScript               1 hr 12 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.09 % 
+Other                    17 hrs 25 mins      ████████████████████████░   94.45 % 
+JavaScript               1 hr 1 min          █░░░░░░░░░░░░░░░░░░░░░░░░   05.55 % 
 
 🔥 Editors: 
-Edge                     19 hrs 45 mins      █████████████████████████   100.00 % 
-```
-
-🤖 **AI Coding This Week** 
-
-```text
-No AI Coding Activity Tracked This Week
+Edge                     18 hrs 26 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
 
 ```text
-JavaScript               16 repos            ████████████░░░░░░░░░░░░░   48.48 % 
-TypeScript               6 repos             █████░░░░░░░░░░░░░░░░░░░░   18.18 % 
-Vue                      2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.06 % 
-Python                   2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.06 % 
-Kotlin                   1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.03 % 
+JavaScript               16 repos            ████████████░░░░░░░░░░░░░   50.00 % 
+TypeScript               5 repos             ████░░░░░░░░░░░░░░░░░░░░░   15.62 % 
+Vue                      2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.25 % 
+Python                   2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.25 % 
+Kotlin                   1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.12 % 
 ```
 
 
 
+**Timeline**
 
- Last Updated on 31/07/2026 02:57:34 UTC
+![Lines of Code chart](https://raw.githubusercontent.com/CikeyQi/CikeyQi/main/assets/bar_graph.png)
+
+
+ Last Updated on 31/07/2026 22:00:44 UTC
 <!--END_SECTION:waka-->
