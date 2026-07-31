@@ -17,15 +17,20 @@ jobs:
           COMMIT_USERNAME: "CikeyQi"
           COMMIT_EMAIL: "3146312184@qq.com"
 
+          SHOW_TIMEZONE: "True"
+          SHOW_LANGUAGE: "True"
+          SHOW_EDITORS: "True"
+          SHOW_LANGUAGE_PER_REPO: "True"
+          SHOW_LINES_OF_CODE: "True"
           SHOW_UPDATED_DATE: "True"
-          SHOW_TOTAL_CODE_TIME: "False"
 
+          SHOW_LOC_CHART: "False"
+          SHOW_TOTAL_CODE_TIME: "False"
           SHOW_COMMIT: "False"
           SHOW_DAYS_OF_WEEK: "False"
           SHOW_PROJECTS: "False"
           SHOW_OS: "False"
           SHOW_PROFILE_VIEWS: "False"
           SHOW_SHORT_INFO: "False"
-
           SHOW_AI_CODE_TIME: "False"
           SHOW_AI_CODING: "False"
