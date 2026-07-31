@@ -21,9 +21,9 @@ jobs:
           SHOW_LANGUAGE: "True"
           SHOW_EDITORS: "True"
           SHOW_LANGUAGE_PER_REPO: "True"
-          SHOW_LINES_OF_CODE: "True"
           SHOW_UPDATED_DATE: "True"
 
+          SHOW_LINES_OF_CODE: "False"
           SHOW_LOC_CHART: "False"
           SHOW_TOTAL_CODE_TIME: "False"
           SHOW_COMMIT: "False"
