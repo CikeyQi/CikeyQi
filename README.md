@@ -31,17 +31,19 @@
 <img width="200%" src="https://cdn.jsdelivr.net/gh/CikeyQi/CikeyQi/hr.gif" />
 
 <!--START_SECTION:waka-->
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-330.85%20thousand%20lines%20of%20code-blue?style=flat)
+
 📊 **This Week I Spent My Time On** 
 
 ```text
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Other                    17 hrs 25 mins      ████████████████████████░   94.45 % 
-JavaScript               1 hr 1 min          █░░░░░░░░░░░░░░░░░░░░░░░░   05.55 % 
+Other                    18 hrs 37 mins      ███████████████████████░░   92.16 % 
+JavaScript               1 hr 35 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.84 % 
 
 🔥 Editors: 
-Edge                     18 hrs 26 mins      █████████████████████████   100.00 % 
+Edge                     20 hrs 12 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -56,10 +58,6 @@ Kotlin                   1 repo              █░░░░░░░░░░�
 
 
 
-**Timeline**
 
-![Lines of Code chart](https://raw.githubusercontent.com/CikeyQi/CikeyQi/main/assets/bar_graph.png)
-
-
- Last Updated on 31/07/2026 22:00:44 UTC
+ Last Updated on 31/07/2026 22:09:24 UTC
 <!--END_SECTION:waka-->
