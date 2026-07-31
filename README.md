@@ -31,8 +31,6 @@
 <img width="200%" src="https://cdn.jsdelivr.net/gh/CikeyQi/CikeyQi/hr.gif" />
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-330.85%20thousand%20lines%20of%20code-blue?style=flat)
-
 📊 **This Week I Spent My Time On** 
 
 ```text
@@ -59,5 +57,5 @@ Kotlin                   1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 31/07/2026 22:09:24 UTC
+ Last Updated on 31/07/2026 22:12:34 UTC
 <!--END_SECTION:waka-->
