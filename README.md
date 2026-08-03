@@ -71,11 +71,11 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Other                    18 hrs 37 mins      ███████████████████████░░   92.16 % 
-JavaScript               1 hr 35 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.84 % 
+Other                    17 hrs 36 mins      ██████████████████████░░░   87.82 % 
+JavaScript               2 hrs 26 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.18 % 
 
 🔥 Editors: 
-Edge                     20 hrs 12 mins      █████████████████████████   100.00 % 
+Edge                     20 hrs 2 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -91,7 +91,7 @@ Kotlin                   1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 02/08/2026 02:56:04 UTC
+ Last Updated on 03/08/2026 02:57:16 UTC
 <!--END_SECTION:waka-->
 
 <div align="right">
