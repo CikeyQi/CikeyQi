@@ -1,9 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="にゃあ">
+  <meta name="theme-color" content="#f3f3f3">
   <title>にゃあ</title>
+  <script>
+    try {
+      const savedTheme = localStorage.getItem("cikeyqi-theme");
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      if (savedTheme === "dark" || (savedTheme !== "light" && prefersDark)) {
+        document.documentElement.classList.add("night");
+      }
+    } catch {}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="preconnect" href="https://q1.qlogo.cn" crossorigin>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
@@ -13,40 +28,38 @@
 </head>
 <body>
   <header class="top-bar">
-    <a href="/" class="home-link">
-      <i class="material-icons">home</i>
+    <a href="./" class="home-link">
+      <i class="material-icons" aria-hidden="true">home</i>
       <span class="home-text">にゃあ</span>
     </a>
-    <div id="rua-counter" class="rua-counter">
-      <span class="paw-emoji">🐾</span>
+    <div id="rua-counter" class="rua-counter" role="status" aria-live="polite" aria-atomic="true">
+      <span class="paw-emoji" aria-hidden="true">🐾</span>
       <span class="rua-counter-text">× 0</span>
     </div>
   </header>
 
   <main class="content-container">
-    <div class="zzz"></div>
-    <div class="center-text">喵，藏个彩蛋...<br>诶？这就被你发现了喵？<br>(*/ω＼*)</div>
+    <button class="zzz" type="button" aria-label="点击头像计数"></button>
+    <div class="center-text" aria-live="polite"></div>
   </main>
 
   <nav class="bottom-nav">
     <ul class="link-list">
-      <li><a href="https://qm.qq.com/q/YzePtrFeQE" aria-label="QQ"><i class="fab fa-qq link-icon"></i></a></li>
-      <li><a href="https://github.com/CikeyQi" aria-label="GitHub"><i class="fab fa-github link-icon"></i></a></li>
-      <li><a href="https://twitter.com/CikeyQi" aria-label="Twitter"><i class="fab fa-twitter link-icon"></i></a></li>
-      <li><a href="mailto:3146312184@qq.com" aria-label="Email"><i class="fa fa-envelope link-icon"></i></a></li>
+      <li><a href="https://qm.qq.com/q/YzePtrFeQE" aria-label="QQ"><i class="fab fa-qq link-icon" aria-hidden="true"></i><span class="visually-hidden">QQ</span></a></li>
+      <li><a href="https://github.com/CikeyQi" aria-label="GitHub"><i class="fab fa-github link-icon" aria-hidden="true"></i><span class="visually-hidden">GitHub</span></a></li>
+      <li><a href="https://twitter.com/CikeyQi" aria-label="Twitter"><i class="fab fa-twitter link-icon" aria-hidden="true"></i><span class="visually-hidden">Twitter</span></a></li>
+      <li><a href="https://steamcommunity.com/id/cikeyqi/" aria-label="Steam"><i class="fab fa-steam link-icon" aria-hidden="true"></i><span class="visually-hidden">Steam</span></a></li>
+      <li><a href="https://t.me/CikeyQi" aria-label="Telegram"><i class="fab fa-telegram link-icon" aria-hidden="true"></i><span class="visually-hidden">Telegram</span></a></li>
+      <li><a href="mailto:3146312184@qq.com" aria-label="Email"><i class="fa fa-envelope link-icon" aria-hidden="true"></i><span class="visually-hidden">Email</span></a></li>
     </ul>
     <div class="theme-toggle-container">
-      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
-        <i id="theme-icon" class="material-icons">brightness_4</i>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换主题" aria-pressed="false">
+        <i id="theme-icon" class="material-icons" aria-hidden="true">brightness_4</i>
       </button>
     </div>
   </nav>
 
-  <div id="ripple"></div>
-  <div id="cat-alert" class="cat-alert"></div>
-
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-  <script src="js/page.js"></script>
-  <script src="js/cursor.js"></script>
+  <script src="js/page.js" defer></script>
+  <script src="js/cursor.js" defer></script>
 </body>
 </html>
