@@ -187,6 +187,9 @@ body.is-idle .paw-emoji {
   transition: transform 0.18s ease-out, box-shadow 0.1s ease-in-out;
   cursor: pointer;
   position: relative; 
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .zzz:hover {
@@ -348,6 +351,7 @@ body.is-idle .paw-emoji {
   justify-content: center;
   align-items: center;
   transition: color 0.3s ease, background-color 0.3s ease;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .home-link:focus-visible,
@@ -356,6 +360,11 @@ body.is-idle .paw-emoji {
 .zzz:focus-visible {
   outline: 3px solid var(--accent);
   outline-offset: 4px;
+}
+
+.theme-toggle:focus:not(:focus-visible),
+.zzz:focus:not(:focus-visible) {
+  outline: none;
 }
 
 .theme-toggle i {
