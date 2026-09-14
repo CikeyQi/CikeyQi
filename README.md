@@ -71,11 +71,11 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Other                    9 hrs 3 mins        ███████████████████████░░   92.01 % 
-JavaScript               47 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.99 % 
+Other                    7 hrs 6 mins        ███████████████████████░░   91.46 % 
+JavaScript               39 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.54 % 
 
 🔥 Editors: 
-Edge                     9 hrs 51 mins       █████████████████████████   100.00 % 
+Edge                     7 hrs 46 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -91,7 +91,7 @@ Python                   2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 13/09/2026 03:48:19 UTC
+ Last Updated on 14/09/2026 03:55:54 UTC
 <!--END_SECTION:waka-->
 
 <div align="right">
