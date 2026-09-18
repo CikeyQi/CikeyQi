@@ -65,6 +65,19 @@
 
 
 <!--START_SECTION:waka-->
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Shanghai
+
+💬 Programming Languages: 
+Other                    4 hrs 12 mins       ████████████████████████░   96.76 % 
+JavaScript               8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.24 % 
+
+🔥 Editors: 
+Edge                     4 hrs 20 mins       █████████████████████████   100.00 % 
+```
+
 **I Mostly Code in JavaScript** 
 
 ```text
@@ -78,7 +91,7 @@ Python                   2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 17/09/2026 03:58:10 UTC
+ Last Updated on 18/09/2026 03:45:17 UTC
 <!--END_SECTION:waka-->
 
 <div align="right">
