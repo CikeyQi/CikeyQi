@@ -71,11 +71,11 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Other                    6 hrs 8 mins        ██████████████████████░░░   86.50 % 
-JavaScript               57 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.50 % 
+Other                    5 hrs 29 mins       █████████████████████░░░░   85.46 % 
+JavaScript               56 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.54 % 
 
 🔥 Editors: 
-Edge                     7 hrs 6 mins        █████████████████████████   100.00 % 
+Edge                     6 hrs 25 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -91,7 +91,7 @@ Vue                      2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 18/10/2026 03:34:51 UTC
+ Last Updated on 19/10/2026 03:45:17 UTC
 <!--END_SECTION:waka-->
 
 <div align="right">
